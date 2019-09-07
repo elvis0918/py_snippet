@@ -5,7 +5,7 @@ import os
 def search(root_path, file_format="*.jpg"):
     """
     搜索指定目录及其递归子目录下指定模式的文件,利用了glob.glob的功能
-    :param path:
+    :param root_path:
     :param file_format:匹配模式
     :return:
     """
